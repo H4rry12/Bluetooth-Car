@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Bluetooth Car</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Main activity -->
+    <string name="label_name">Edit text</string>
+    <string name="label_state">Switch status</string>
+    <string name="button_test">Test</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- General settings -->
+    <string name="pref_header_general">General</string>
+
+    <!-- List preference entries and values -->
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- Multi select list preference entries and values -->
+    <string-array name="multi_select_list_preferences_entries">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_values">
+        <item>Monday</item>
+    </string-array>
+</resources>
