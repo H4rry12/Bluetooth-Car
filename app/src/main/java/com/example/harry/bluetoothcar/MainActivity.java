@@ -56,6 +56,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_toast:
                 Toast.makeText(this, "Toast clicked :-)", Toast.LENGTH_SHORT).show();
                 return true;
+            case R.id.action_about:
+                AboutBox.Show(MainActivity.this);
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
